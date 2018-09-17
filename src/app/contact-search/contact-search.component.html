@@ -1,0 +1,133 @@
+<div class="row">
+	<div class="col-md-3 bg-light">
+	    <div class="filter-sidebar">
+		    <div class="row card-body">
+		        <h4><i class="fa fa-car"></i> Filter people by</h4>
+		    </div>    
+		    <div class="form-group">
+		    	<input class="form-control" name="" placeholder="Firstname" />
+		    </div>
+		    <div class="form-group">
+		    	<input class="form-control" name="" placeholder="Lastname" />
+		    </div>
+		    <div class="form-group">
+		    	<input class="form-control" name="" placeholder="Title" />
+		    </div>
+		    <div class="form-group">
+		    	<input class="form-control" name="" placeholder="Company" />
+		    </div>
+		    <div class="row card">
+		    	<div class="card-header">
+			      <a class="card-link" data-toggle="collapse" href="#morefilters">
+			        More Filters
+			      </a>
+			    </div>
+			    <div class="collapse filter-content show" id="morefilters">
+			    	<div class="card-body" >
+				        <div class="form-group">
+				            <select class="form-control" id="company">
+				              <option>Company</option>
+				              <option>Company 1</option>
+				              <option>Company 2</option>
+				            </select>
+				        </div>
+				        <div class="form-group">
+				            <select class="form-control" id="anaylists">
+				              <option>Analyst</option>
+				              
+				              <option>Analyst 1</option>
+				              <option>Analyst 2</option>
+				            </select>
+				        </div>
+			     	</div>
+		     	</div>
+		    </div>
+		    <!-- <div class="row card">
+		    	<accordion>
+		    		<accordion-group heading="More Filters">
+		    		    <div class="card-body" >
+				        <div class="form-group">
+				            <select class="form-control" id="company">
+				              <option>Company</option>
+				              <option>Company 1</option>
+				              <option>Company 2</option>
+				            </select>
+				        </div>
+				        <div class="form-group">
+				            <select class="form-control" id="anaylists">
+				              <option>Analyst</option>
+				              
+				              <option>Analyst 1</option>
+				              <option>Analyst 2</option>
+				            </select>
+				        </div>
+				        <div class="form-group">
+				            <select class="form-control" id="make1">
+				              <option>Transmission</option>
+				              <option>Automatic</option>
+				              <option>Manaul</option>
+				              <option>Semi-Automatic</option>
+				            </select>
+				         </div>
+			     	</div>
+		    		 </accordion-group>
+		    	</accordion>
+		    </div> -->
+		    
+		    <hr>
+		    <button type="btn" class="btn btn-primary">Search</button>
+		    
+		</div><!-- filter-sidebar -->
+		
+  	</div>
+  	<div class="col-md-9">
+  		<div class="panel panel-default">
+  			<div class="panel-heading c-list">
+                <span class="title">Contacts</span>
+            </div>
+            <div class="panel-body">
+            	
+            	<ul class="list-group" id="contact-list">
+                    <li class="list-group-item">
+                        <div class="col-xs-12 col-sm-9">
+                            <a href="#"><span class="name">contact title</span></a><br />
+                            <span class="post visible-xs"> <span class="text-muted">Post</span><br/></span>
+                            <span class="addr visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="col-xs-12 col-sm-9">
+                            <a href="#"><span class="name">contact title</span></a><br />
+                            <span class="post visible-xs"> <span class="text-muted">Post</span><br/></span>
+                            <span class="addr visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="col-xs-12 col-sm-9">
+                            <a href="#"><span class="name">contact title</span></a><br />
+                            <span class="post visible-xs"> <span class="text-muted">Post</span><br/></span>
+                            <span class="addr visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                </ul>
+                <div class="row">
+                  <div class="col-xs-12 col-12">
+                    <!--<pagination [totalItems]="totalItems" [(ngModel)]="currentPage"></pagination>-->
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination no-margin pull-right">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+            </div>
+  		</div>
+	</div>
+</div>
